@@ -1,0 +1,83 @@
+.contact .row{
+    display: flex;
+    background:var(--darkgray);
+    flex-wrap: wrap;
+    gap:1rem;
+}
+
+.map{
+    flex:1 1 45rem;
+    width: 80%;
+    height: 400px;
+    object-fit: cover;
+}
+.contact {
+    flex:1 1 45rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.contact .row form{
+    flex:1 1 45rem;
+    padding:5rem 2rem;
+    text-align: center;
+}
+
+.contact .row form h3{
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    color:#fff;
+}
+
+.contact .row form .inputBox{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.contact .row form .inputBox span{
+    color:#fff;
+    font-size: 2rem;
+    padding-left: 8.5rem;
+    align-items: center;
+}
+
+.contact .row form .inputBox input{
+    width: 80%;
+    padding:2rem;
+    font-size: 1.7rem;
+    color:#fff;
+    text-transform: none;
+    background:none;
+}
+.heading{
+    text-align: center;
+    color:#fff;
+    padding-bottom: 2rem;
+    font-size: 3rem;
+}
+
+.heading{
+    background-color: var(--darkgray);
+    color:var(--white);
+    text-transform: uppercase;
+}
+.btn{
+    width: 80%;
+    height: 3rem;
+    border-radius: 2px;
+    background-color:var(--brightred);
+    outline:none;
+    border:none;
+    color: var(--white);
+    font-size: 1rem;
+    text-decoration: none;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: var(--lightblue);
+}
+.mb-3{
+    background-color: var(--darkgray);
+}
